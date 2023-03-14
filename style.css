@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-decoration: none;
+}
+#header{
+    padding: 25px 0;
+    background: #090808;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav select{
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+.header-input input{
+    padding: 8px 25px;
+    outline: none;
+    border-radius: 8px;
+}
+.header-input button{
+    padding: 8px 20px;
+    border-radius: 8px;
+    background: green;
+    color: white;
+}
+.header-nav a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
